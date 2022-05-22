@@ -1,0 +1,222 @@
+*, *:after, *:before {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #131313;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+li {
+    list-style: none;
+}
+.container{
+    max-width: 1210px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 3px;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin-right: 82px;
+}
+.menu_item + .menu_item{
+    padding-left: 10px;
+}
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_link{
+    text-transform: uppercase;
+    padding: 42px 20px 41px;
+    line-height: 17px;
+    transition: all .3s;
+}
+.menu_link:hover{
+    background-color: #131313;
+    color: white;
+}
+.bike{
+    padding: 97px 0 150px;
+}
+.bike_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.bike_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    padding-top: 72px;
+    padding-bottom: 5px;
+}
+.bike_subtitle{
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+}
+.bike_text{
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    max-width: 420px;
+}
+.bike_link{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 28px 75px;
+    width: 420px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    background-color: #131313;
+    color: white;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.bike_link:hover{
+    background-color: #ff4040;
+}
+.bike_slider{
+    max-width: 630px;
+}
+.slider{
+    max-width: 600px;
+    height: 500px;
+    margin-left: 30px;
+}
+.slick-dots{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.slick-dots li + li{
+    padding-top: 10px;
+}
+.slick-dots button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #131313;
+    width: 2px;
+    height: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.slick-active button, .slick-dots button :hover{
+    background-color: #ff4040;
+}
+.bike_list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 65px 0;
+}
+.bike_item{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 160px;
+    height: 31px;
+}
+.bike_item span{
+    max-width: 160px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    padding-bottom: 150px;
+}
+.info_inner{
+    display: flex;
+}
+.info_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.info_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.info_text{
+    width: 450px;
+    font-size: 14px;
+    line-height: 120%;
+} 
+.characteristics{
+    height: 775px;
+    padding-bottom: 150px;
+}
+.characteristics_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.characteristics_inner{
+    display: flex;
+}
+.characteristics_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
+    height: 650px;
+}
+.characteristic_title{
+    background-color: #131313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.characteristic_line{
+    display: flex;
+}
+.characteristic_name{
+    width: 285px;
+    padding-bottom: 5px;
+}
+.characteristic_descr{
+    width: 285px;
+    padding-bottom: 5px;
+}
+.characteristics_img{
+    margin: 120px 0;
+}
